@@ -23,7 +23,6 @@ struct BRMBigButton: View {
                 .font(.system(size: 36))
         }
         .padding(.bottom, 54)
-        .padding(.trailing, 30)
-        .padding(.leading, 30)
+        .padding([.leading, .trailing], 30)
     }
 }
