@@ -9,12 +9,16 @@ import UIKit
 
 enum Constants {
     
+    enum CommanConstants {
+        static let cornerRadius: CGFloat = 20
+    }
+    
     enum Titles {
         static let splashTitle = "BookRateMaster"
         static let registrationTitle = "Registarion"
         static let logInTitle = "Log in"
         static let forgotPwdTitle = "Forgot your password?"
-        static let resetPwdTitle = "Create new password"
+        static let newPwdTitle = "Create new password"
         static let xTitle = ""
         
     }
@@ -31,7 +35,7 @@ enum Constants {
         static let registrationButton = "Create"
         static let logInButton = "Log In"
         static let forgotPwdButton = "Send"
-        static let resetPwdButton = "Create"
+        static let newPwdButton = "Create"
         
     }
     
@@ -56,12 +60,12 @@ enum Constants {
             static let logInImage = "logInScreen"
         }
         
-        enum ForgotPasScreen {
-            static let forgotPasImage = "fogPasScreen"
+        enum ForgotPwdScreen {
+            static let forgotPwdImage = "fogPasScreen"
         }
         
-        enum NewPasScreen {
-            static let newPasImage = "newPasScreen"
+        enum NewPwdScreen {
+            static let newPwdImage = "newPasScreen"
         }
         
         enum ReviewScreen {

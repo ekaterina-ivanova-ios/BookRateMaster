@@ -19,7 +19,7 @@ struct BRMBigButton: View {
                 .frame(height: 60)
                 .foregroundColor(.white)
                 .background(.buttonDark)
-                .cornerRadius(20)
+                .cornerRadius(Constants.CommanConstants.cornerRadius)
                 .font(.system(size: 36))
         }
         .padding(.bottom, 54)
